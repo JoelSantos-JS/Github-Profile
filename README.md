@@ -8,9 +8,6 @@ O projeto utiliza: React, Styled Components, Axios, React-Router-DOM e React-Ico
 
 OBS.: Este repositório refere-se aos arquivos iniciais do projeto. Caso queira ver ele completo, [clique aqui](https://github.com/anthonyvii27/ytb-github-profile-final).
 
-### Aula
-
-Caso queira assistir a aula onde é ensinada a construir o restante do projeto, [clique aqui](https://www.youtube.com/watch?v=kqp1lNnv6K8)
 
 ### Licença
 
