@@ -13,7 +13,7 @@ function UserFollowing  (props)  {
     return (
         <Section>
             <Back onClick={() => HandleOnclick('./')}><FiArrowLeft/></Back>
-                <UserLogin>Followers de {(props?.name)?.split(' ')[0]} </UserLogin>
+                <UserLogin>Following de {(props?.name)?.split(' ')[0]} </UserLogin>
                     <ListOfReposContainer>
                     
                                 {(props?.following).map(follow => (
