@@ -60,6 +60,7 @@ const Header = () => {
     
     return (
     <HeaderSection>
+        <span></span>
         <HeaderTitle>Github Profile</HeaderTitle>
         <HeaderInputContainer>
             <HeaderInput type='search' value={searchValue}  onChange={ handleChange} onKeyUp={HandleSearch} ref={inputRef}/>
