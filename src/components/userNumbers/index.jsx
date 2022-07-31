@@ -17,11 +17,11 @@ import { context } from "../../context"
                     <h1>{ctx.userData?.public_repos}</h1>
                     <h2>Repostiorios</h2>
                 </NumberContainer>
-                <NumberContainer>
+                <NumberContainer onClick={() => HandleOnclick('./followers') }>
                     <h1>{ctx.userData?.followers}</h1>
                     <h2>Seguidores</h2>
                 </NumberContainer>
-                <NumberContainer>
+                <NumberContainer onClick={() => HandleOnclick('./following')}>
                     <h1>{ctx.userData?.following}</h1>
                     <h2>Seguindo</h2>
                 </NumberContainer>

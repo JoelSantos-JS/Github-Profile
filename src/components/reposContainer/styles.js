@@ -36,7 +36,7 @@ export const ListOfReposContainer = styled.h1 `
     overflow-y: scroll;
 `
 
-export const Repo = styled.h2 `
+export const Repo = styled.span `
     width: 100%;
     height: 80px;
     background: rgba(0,0,0,.05);
@@ -44,7 +44,7 @@ export const Repo = styled.h2 `
     padding: 10px;
     margin-bottom: 10px;
 
-    h2 {
+    a {
         font-size: 15px;
         width: 100%;
         overflow: hidden;

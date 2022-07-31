@@ -9,9 +9,23 @@ export const HeaderSection = styled.header`
     background-color: #151320;
     border-radius: 15px;
     box-shadow: 0  20px 35px rgba(0,0,0,0.3);
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 0;
+    overflow: hidden;
+    &::before {
+        content: "";
+        background-color: conic-gradient(
+            #04b0ee 20deg,
+            transparent 120deg
+        );
+        height: 150%;
+        width: 150%;
+        position: relative;
+        left: -25%;
+        top: -25%;
+    }
 `
 
 export const HeaderTitle = styled.h1`
